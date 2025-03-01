@@ -26,6 +26,11 @@ OBS Python script that detects your team color from the game UI and updates a fi
   - Browse to the location of `Python 3.11` on your PC. For example: `"C:/Users/Agent8/AppData/Local/Programs/Python/Python311"`
   - Navigate to the code directory you extracted and select `s3_obs_detect_color.py`
   - Set the parameters of the script:
+    - Running: Check this box when you're done entering the below settings
+    - Enable Home Assistant (optional): Enables setting lights in Home Assistant (https://www.home-assistant.io/)
+    - Home Assistant URL (optional): Base url (domain name) of your Home Assistant hub
+    - Home Assistant Bearer Token (optional): Bearer Token to authenticate with you Home Assistant hub
+    - Home Assistant Lights (optional): List of light entities in Home Assistant to set
     - Source Name: name of the source to which you added the obs-shaderfilter
     - Filter Name: name of said filter (I told you to remember it)
     - Video Capture Device (select the device capturing from your Nintendo Switch)
